@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding:0px;
-    background-color: black;
+    background-color: #000000;
 }
 .Heading{
     height: 50px;
@@ -9,14 +9,13 @@
     color: black;
     font-size: 40px;
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    line-height: 50px;
 }
 .choices{
-     justify-content: center;
+    justify-content: center;
     align-items: center;
     display: flex;
-    gap: 3rem;
+    gap: 5rem;
 }
 .choice{
     height: 150px;
@@ -46,7 +45,6 @@ div{
 }
 #user-score,#computer-score{
     font-size: 4rem;
-
 }
 .msg-container{
     margin-top: 4rem;
